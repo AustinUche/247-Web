@@ -14,7 +14,7 @@ const Header = () => {
     const content = (
         <>
             <BrowserRouter>
-                <div className="h-[90vh] lg:h-0 flex justify-center" onClick={handleClick}>
+                <div className="h-[90vh] lg:h-0 none lg:flex justify-center" onClick={handleClick}>
                     <ul className="flex flex-col gap-5 text-center py-10 lg:flex">
                         <li>
                             <Link to="#home" className="text-darkBg lg:text-textColor">
@@ -43,15 +43,15 @@ const Header = () => {
     )
 
     return (
-        <div className="w-full bg-darkBg relative">
-            <div className="w-[100%] lg:w-[80%] m-auto flex justify-between items-center bg-darkB py-5 px-5 lg:px-0 relative">
+        <div className="w-full bg-darkBg fixed top-0 left-0 right-0 z-[1000]">
+            <div className="w-[100%] lg:w-[80%] m-auto flex justify-between items-center py-5 lg:py-1 px-5 lg:px-0 relative">
                 <div className="text-3xl">
                     <h1 className="flex text-textColor font-extrabold">
                         247 <MdOutlineCurrencyExchange /> xchange{' '}
                     </h1>
                 </div>
                 <BrowserRouter>
-                    <div className="h-0 lg:h-[8vh] flex items-center">
+                    <div className="h-0 lg:h-[8vh] hidden lg:flex items-center">
                         <ul className="block lg:flex gap-5">
                             <li>
                                 <Link to="#home" className="text-darkBg lg:text-textColor">
