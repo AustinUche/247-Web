@@ -44,7 +44,7 @@ const Header = () => {
 
     return (
         <div className="w-full bg-darkBg relative">
-            <div className="w-[100%] lg:w-[80%] m-auto flex justify-between items-center bg-darkB py-5 lg:px-0 relative">
+            <div className="w-[100%] lg:w-[80%] m-auto flex justify-between items-center bg-darkB py-5 px-5 lg:px-0 relative">
                 <div className="text-3xl">
                     <h1 className="flex text-textColor font-extrabold">
                         247 <MdOutlineCurrencyExchange /> xchange{' '}
