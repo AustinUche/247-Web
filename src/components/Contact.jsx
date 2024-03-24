@@ -18,7 +18,7 @@ const Contact = () => {
                       Have a question or need assistance? Our dedicated support team is here to help. Reach out to us through our social media handles and we'll promptly address your inquiries. Your satisfaction is our utmost priority, so don't hesitate to get in touch. We're committed to providing you with the best possible experience on our crypto buying and selling platform. 
                   </p>
                   <BrowserRouter>
-                      <div className="w-full flex gap-10">
+                      <div className="w-full flex justify-between gap-10">
                           <Link to="https://wa.me/+2348107337549" className="flex items-center gap-1">
                               <MdOutlineWhatsapp />
                               WhatsApp
