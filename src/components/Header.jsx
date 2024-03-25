@@ -14,7 +14,10 @@ const Header = () => {
     const content = (
         <>
             <BrowserRouter>
-                <div className="h-[90vh] lg:h-0 none lg:flex justify-center" onClick={handleClick}>
+                <div
+                    className="h-[50vh lg:h- none lg:flex justify-center fixed lg:relative top-[80px] lg:top-0 left-[15px] lg:left-0 right-[15px] lg:right-0 bottom-[15px] lg:bottom-0 bg-textColor rounded-lg"
+                    onClick={handleClick}
+                >
                     <ul className="flex flex-col gap-5 text-center py-10 lg:flex">
                         <li>
                             <Link to="#home" className="text-darkBg lg:text-textColor">
@@ -76,7 +79,7 @@ const Header = () => {
                         </ul>
                     </div>
                 </BrowserRouter>
-                <div className="w-full block lg:flex text-xl absolute left-0 top-[80px] rounded-lg bg-white z-[1000]">
+                <div className="w-ful block lg:hidden text-xl bg-white z-[1000]">
                     {click && content}
                 </div>
                 <div
