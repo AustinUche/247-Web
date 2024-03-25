@@ -6,7 +6,7 @@ import { HashLink as Link } from "react-router-hash-link"
 const Hero = () => {
     return (
         <section className="w-full lg:w-full m-auto bg-darkBg" id="home">
-            <div className="w-[90%] lg:w-[80%] m-auto flex flex-col-reverse lg:flex-row items-center py-14 lg:py-[100px] bg-darkBg">
+            <div className="w-[90%] lg:w-[80%] m-auto flex flex-col-reverse lg:flex-row items-center py-[80px] lg:py-[100px] bg-darkBg">
                 <div className="w-full lg:w-[50%] mr-0 lg:mr-[5%] flex flex-col gap-4">
                     <h1 className="w-full max-w-full lg:max-w-full  text-3xl lg:text-5xl text-textColor  text-center lg:text-left font-extrabold leading-8">
                         The world's <span className="text-lightBlue">leading</span> decentralized digital exchange.
